@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+        http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+    <!-- START. EXAMPLE FILTER-->
+    <!--<display-name>ServletFilterExample</display-name>-->
+    <!--<welcome-file-list>-->
+        <!--<welcome-file>login.html</welcome-file>-->
+    <!--</welcome-file-list>-->
+
+    <!--<filter>-->
+        <!--<filter-name>RequestLoggingFilter</filter-name>-->
+        <!--<filter-class>RequestLoggingFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter>-->
+        <!--<filter-name>AuthenticationFilter</filter-name>-->
+        <!--<filter-class>AuthenticationFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>RequestLoggingFilter</filter-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+        <!--<dispatcher>REQUEST</dispatcher>-->
+    <!--</filter-mapping>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>AuthenticationFilter</filter-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+    <!--</filter-mapping>-->
+    <!-- FINISH. EXAMPLE FILTER-->
+
+    <!--<servlet>-->
+        <!--<servlet-name>CheckOperationsServlet</servlet-name>-->
+        <!--<servlet-class>CheckOperationsServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>CheckOperationsServlet</servlet-name>-->
+        <!--<url-pattern>/checkoperationsservlet</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <!--<servlet>-->
+        <!--<servlet-name>MultipleValueFieldHandlerServlet</servlet-name>-->
+        <!--<servlet-class>MultipleValueFieldHandlerServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet>-->
+        <!--<servlet-name>ConfirmationServlet</servlet-name>-->
+        <!--<servlet-class>ConfirmationServlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>MultipleValueFieldHandlerServlet</servlet-name>-->
+        <!--<url-pattern>/multipleValueFieldHandlerServlet</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>ConfirmationServlet</servlet-name>-->
+        <!--<url-pattern>/ConfirmationServlet</url-pattern>-->
+    <!--</servlet-mapping>-->
+
+    <!--<welcome-file-list>-->
+        <!--<welcome-file>example1.html</welcome-file>-->
+        <!--<welcome-file>index.htm</welcome-file>-->
+        <!--<welcome-file>index.jsp</welcome-file>-->
+        <!--<welcome-file>default_forwarding_response.html</welcome-file>-->
+        <!--<welcome-file>default_redirecting_response.html</welcome-file>-->
+    <!--</welcome-file-list>-->
+
+    <!--<error-page>-->
+        <!--<error-code>404</error-code>-->
+        <!--<location>/error/40X.html</location>-->
+    <!--</error-page>-->
+    <!--<error-page>-->
+        <!--<error-code>400</error-code>-->
+        <!--<location>/error/40X.html</location>-->
+    <!--</error-page>-->
+</web-app>
